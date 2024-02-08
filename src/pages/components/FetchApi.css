@@ -1,0 +1,87 @@
+  .center-text {
+    text-align: center;
+  }
+  
+  .fetch-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .fetch-button-container {
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  
+  .fetch-button button {
+    border: none;
+    background-color: transparent;
+    padding: 5px 20px;
+  }
+  
+  .fetch-button button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .space {
+    width: 20px; /* Adjust spacing as needed */
+  }
+  
+  .search-button {
+    border: none;
+    background-color: transparent;
+    padding: 5px 10px;
+  }
+  
+  .search-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h2 {
+    margin-top: 0;
+    color: #333333;
+  }
+  
+  .card p {
+    margin-bottom: 10px;
+    color: #666666;
+  }
+  
+  .card-body {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
